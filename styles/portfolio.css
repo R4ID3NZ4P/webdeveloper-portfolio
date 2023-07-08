@@ -170,9 +170,90 @@ header {
 
 .summary {
     margin: 0 200px;
+    margin-bottom: 100px;
 }
 
 .resume-info-container {
     display: flex;
     gap: 70px;
+}
+
+.resume-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.post {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.institute {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.resume-desc {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 30px;
+    max-width: 500px;
+}
+
+.summary hr {
+    background-color: #D1D1D1;
+}
+
+.summary button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+footer {
+    display: flex;
+    padding: 130px 200px;
+    justify-content: space-between;
+    background-color: #FFF8F3;
+}
+
+.footer-text {
+    max-width: 560px;
+    color: var(--dark-02, #474747);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.footer-icons {
+    width: 24px;
+    margin-right: 24px;
+}
+
+.input {
+    display: block;
+    padding: 18px 30px;
+    width: 300px;
+    border-radius: 5px;
+    margin-bottom: 24px;
+    border: 0;
+}
+
+input[type="button"] {
+    display: block;
+}
+
+textarea {
+    resize: none;
+    height: 180px;
 }
