@@ -127,3 +127,52 @@ header {
     font-weight: 700;
     margin-top: 0px;
 }
+
+.what-i-do {
+    margin: 0 200px;
+    margin-bottom: 130px;
+}
+
+.what-i-do > .section-desc {
+    padding: 0 150px;
+    margin-bottom: 50px;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.skill {
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    width: 260px;
+    padding: 30px 33px;
+}
+
+.lang-icon {
+    width: 40px;
+}
+
+.skill-title {
+    color: #181818;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.skill-desc {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.summary {
+    margin: 0 200px;
+}
+
+.resume-info-container {
+    display: flex;
+    gap: 70px;
+}
